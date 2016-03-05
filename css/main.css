@@ -129,3 +129,24 @@ header {
 }
 
 /*end header*/
+
+/*section menu*/
+
+.menu {
+  background-size: cover;  /* tlo ma sie dopasowywać do zawartosci, ustawiamy wielkosc elementow i marginesow */
+}
+
+/*end menu*/
+
+/*section features*/
+.features {
+  /*height: 49.6rem;*/
+  background-size: cover;
+  background-color: #eeeeee;
+}
+
+/*end features */
+
+img {
+  border: 1px solid green;
+}
