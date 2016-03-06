@@ -131,14 +131,6 @@ header {
   font-weight: lighter;
 }
 
-/*.hexagon {
-  text-align: center;
-}*/
-
-.hexagon-small {
-  margin: auto;
-}
-
 .transparent {
   opacity: .2;
 }
@@ -189,6 +181,23 @@ header {
   /*height: 49.6rem;*/
   background-size: cover;
   background-color: #eeeeee;
+}
+
+.feature-headline {
+  padding-top: 9%;
+  padding-bottom: 9%;
+  font-size: 1.7rem;
+  color: #5c5c5c;
+}
+
+.feature-headline+p {
+  color: #636363;
+  line-height: 1.4rem;
+}
+
+.features .space-around {
+  padding-top: 13%;
+  padding-bottom: 13%;
 }
 
 /*end features */
