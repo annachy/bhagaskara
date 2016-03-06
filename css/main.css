@@ -19,19 +19,14 @@ body {
     max-width: 1000px;
     box-sizing: border-box;
     margin: auto;
-    border: 1px solid red;
 }
 
-.row, .column {
-  box-sizing: border-box;
-}
 
 .row::before,
 .row::after {
     content: "";
     display: table;
     clear: both;
-    border-bottom: 1px solid red;
 }
 
 [class*='col-'] {
@@ -40,7 +35,6 @@ body {
     min-height: 1px;
     width: 8.333%;
     /*padding: 1.5%;*/
-    border-right: 1px solid red;
 }
 
 .col-1 {
@@ -107,6 +101,10 @@ header {
 
 }
 
+.header-text {
+  padding-bottom: 15rem;
+}
+
 .header-text p {
   text-align: center;
   color: white;
@@ -128,12 +126,20 @@ header {
   font-weight: lighter;
 }
 
+.hexagon {
+  text-align: center;
+}
+
 /*end header*/
 
 /*section menu*/
 
-.menu {
+.menu-section {
   background-size: cover;  /* tlo ma sie dopasowywać do zawartosci, ustawiamy wielkosc elementow i marginesow */
+}
+
+.menu {
+  text-align: right;
 }
 
 /*end menu*/
@@ -146,7 +152,3 @@ header {
 }
 
 /*end features */
-
-img {
-  border: 1px solid green;
-}
