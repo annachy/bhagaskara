@@ -177,8 +177,8 @@ header {
 /*end menu*/
 
 /*section features*/
+
 .features {
-  /*height: 49.6rem;*/
   background-size: cover;
   background-color: #eeeeee;
 }
@@ -192,7 +192,7 @@ header {
 
 .feature-headline+p {
   color: #636363;
-  line-height: 1.4rem;
+  line-height: 2rem;
 }
 
 .features .space-around {
@@ -201,3 +201,19 @@ header {
 }
 
 /*end features */
+
+/*section about*/
+
+.about h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #636363;
+  padding: 10% 0 10% 0;
+}
+
+.description p {
+  color: #636363;
+  line-height: 2rem;
+}
+
+/*end about*/
