@@ -8,6 +8,10 @@ body {
   clear: both;
 }
 
+.center {
+  text-align: center;
+}
+
 .font-color {
   color: #9e449b;
 }
@@ -16,7 +20,7 @@ body {
 
 .grid-container {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     box-sizing: border-box;
     margin: auto;
 }
@@ -32,9 +36,10 @@ body {
 [class*='col-'] {
     float: left;
     position: relative;
+    box-sizing: border-box;
     min-height: 1px;
     width: 8.333%;
-    /*padding: 1.5%;*/
+    /*padding: 3.5%;*/
 }
 
 .col-1 {
@@ -102,7 +107,7 @@ header {
 }
 
 .header-text {
-  padding-bottom: 15rem;
+  padding-bottom: 8rem;
 }
 
 .header-text p {
@@ -126,8 +131,16 @@ header {
   font-weight: lighter;
 }
 
-.hexagon {
+/*.hexagon {
   text-align: center;
+}*/
+
+.hexagon-small {
+  margin: auto;
+}
+
+.transparent {
+  opacity: .2;
 }
 
 /*end header*/
@@ -136,10 +149,37 @@ header {
 
 .menu-section {
   background-size: cover;  /* tlo ma sie dopasowywać do zawartosci, ustawiamy wielkosc elementow i marginesow */
+
+}
+
+.space-around {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .menu {
-  text-align: right;
+  text-align: center;
+  padding-right: 1.5rem;
+}
+
+.menu-section div div:first-child {
+  font-size: 1.8rem;
+  color: #5f5f5f;
+  padding-left: 1.5rem;
+}
+
+.menu li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  color: #5f5f5f;
+  padding-left: 1.5rem;
+}
+
+.menu li:hover {
+  color: #9e449b;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 /*end menu*/
