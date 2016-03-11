@@ -313,17 +313,62 @@ button {
   font-weight: bold;
 }
 
+.invisible {
+  position: relative;
+  width: 20rem;
+}
+
 .percents {
   color: #797979;
-  text-align: right;
+  position: absolute;
+  right: 0;
 }
 
 .skills .row {
   margin: 3%;
 }
 
-/*.skills [class*="col-"] {
-  margin: 0 2% 0 2%;
-}*/
-
 /*end skills*/
+
+/*section numbers*/
+
+.numbers {
+  background-color: #eeeeee;
+}
+
+.numb {
+  font-size: 3.3rem;
+  margin-top: 20%;
+}
+
+.numb+p{
+  color: #4b4b4b;
+}
+
+.numbers .circle {
+  width: 10rem;
+  height: 10rem;
+  margin: 5% auto 5% auto;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #4b4b4b;
+}
+
+blockquote p+p {
+  color: #767676;
+  padding: 2rem;
+}
+
+.circle-slider {
+  display: inline-block;
+  border: 1px solid #808080;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  margin: 5% 0.3% 10% 0.3%;
+}
+
+/*end numbers*/
