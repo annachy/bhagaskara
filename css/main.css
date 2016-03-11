@@ -205,7 +205,7 @@ header {
 
 /*section about*/
 
-.about h1, .team h1, .skills h1 {
+.about h1, .team h1, .skills h1, .portfolio h1 {
   text-align: center;
   font-size: 2.5rem;
   color: #636363;
@@ -222,7 +222,7 @@ header {
   padding-bottom: 15%;
 }
 
-button {
+.about button {
   padding: 3% 0 3% 0;
   background-color: #9e449b;
   border: 1px solid #9e449b;
@@ -371,4 +371,39 @@ blockquote p+p {
   margin: 5% 0.3% 10% 0.3%;
 }
 
+.white-block {
+  height: 3rem;
+  background-color: #fff;
+}
+
+
 /*end numbers*/
+
+/*section portfolio */
+
+.portfolio button {
+  width: 6rem;
+  height: 2.5rem;
+  border: 1px solid #000;
+  border-radius: 5%;
+  background-color: #fff;
+  margin: 0 2rem 4rem 0;
+}
+
+.portfolio button:hover {
+  background-color: #9e449b;
+  border-color: #9e449b;
+  color: #fff;
+}
+
+.img-description {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.img-description+p {
+  padding-bottom: 3rem;
+  color: #767676;
+}
+
+/*end portfolio*/
