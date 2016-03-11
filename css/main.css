@@ -205,7 +205,7 @@ header {
 
 /*section about*/
 
-.about h1, .team h1, .skills h1, .portfolio h1 {
+.about h1, .team h1, .skills h1, .portfolio h1, .contact h1, footer h1 {
   text-align: center;
   font-size: 2.5rem;
   color: #636363;
@@ -222,8 +222,8 @@ header {
   padding-bottom: 15%;
 }
 
-.about button {
-  padding: 3% 0 3% 0;
+.big-button {
+  padding: 1rem 0 1rem 0;
   background-color: #9e449b;
   border: 1px solid #9e449b;
   border-radius: 6%;
@@ -381,7 +381,7 @@ blockquote p+p {
 
 /*section portfolio */
 
-.portfolio button {
+.small-button {
   width: 6rem;
   height: 2.5rem;
   border: 1px solid #000;
@@ -390,7 +390,7 @@ blockquote p+p {
   margin: 0 2rem 4rem 0;
 }
 
-.portfolio button:hover {
+.small-button:hover {
   background-color: #9e449b;
   border-color: #9e449b;
   color: #fff;
@@ -406,4 +406,58 @@ blockquote p+p {
   color: #767676;
 }
 
+.portfolio .big-button {
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  margin: 5% 0 5% 0;
+}
+
 /*end portfolio*/
+
+/*section contact*/
+
+.contact .big-button {
+  margin-top: 5%;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.field {
+  margin-bottom: 5%;
+  width: 21rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.field2 {
+  width: 21rem;
+  font-size: 1.5rem;
+}
+
+.contact .icon-circle {
+  width: 4rem;
+  height: 4rem;
+}
+
+
+.text {
+  color: #5c5c5c;
+  line-height: 1.3rem;
+  padding-bottom: 5%;
+}
+
+.contact-right p:not(.text) {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.contact-right p:nth-child(3) {
+  padding-bottom: 5%;
+}
+
+
+.social-icons-contact {
+  margin-top: 10%;
+}
+
+
+
+/*end contact*/
