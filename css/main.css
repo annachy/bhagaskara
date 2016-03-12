@@ -1,3 +1,7 @@
+/** {
+  font-family: 'Lato', sans-serif;
+}*/
+
 body {
   font-family: 'Lato', sans-serif;
   width: 100%;
@@ -15,6 +19,16 @@ body {
 .font-color {
   color: #9e449b;
 }
+
+img {
+  max-width: 100%;
+}
+
+.half-div {
+  width: 50%;
+}
+
+
 
 /* grid */
 
@@ -39,7 +53,7 @@ body {
     box-sizing: border-box;
     min-height: 1px;
     width: 8.333%;
-    /*padding: 2.5%;*/
+    padding: 12px;;
 }
 
 .col-1 {
@@ -101,8 +115,6 @@ header {
 
 .header-image {
   width: 100%;
-  /*height: 68.75rem;*/
-  background-size: cover;
   background-color: rgba(103,103,103,.4);
 
 }
@@ -247,7 +259,7 @@ header {
 }
 
 .middle-space-around {
-  padding: 10% 0 10% 0;
+  padding: 9% 0 9% 0;
 }
 
 
@@ -255,13 +267,17 @@ header {
 
 /*section team*/
 
-.circle {
-  display: block;
-  background-color: #cdcdcd;
-  width: 15.5rem;
-  height: 15.5rem;
-  border-radius: 50%;
+.circle-container {
+  width: 60%;
+  height: 250px;
   margin: auto;
+}
+
+.circle {
+  background-color: #cdcdcd;
+  width: 100%;
+  padding-bottom: 100%;
+  border-radius: 50%;
 }
 
 .arrows {
@@ -280,21 +296,12 @@ header {
   line-height: 2rem;
 }
 
-.icon-circle {
+.social-icons {
   display: inline-block;
-  border: 1px solid #808080;
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  margin: 4% 2% 4% 2%;
-  position: relative;
+  max-width: 100%;
+  margin-top: 2%;
 }
 
-.icon-circle img {
-  position: absolute;
-  top: 25%;
-  left: 40%;
-}
 
 /*end team*/
 
@@ -303,7 +310,6 @@ header {
 .bar {
   display: block;
   margin: auto;
-  width: 20rem;
   height: 1rem;
   background-color: #9e449b;
   margin-top: 5%;
@@ -315,7 +321,6 @@ header {
 
 .invisible {
   position: relative;
-  width: 20rem;
 }
 
 .percents {
@@ -345,10 +350,17 @@ header {
   color: #4b4b4b;
 }
 
-.numbers .circle {
-  width: 10rem;
-  height: 10rem;
+.numbers .circle-container {
+  width: 15%;
+  height: 200px;
   margin: 5% auto 5% auto;
+}
+
+.circle {
+  background-color: #cdcdcd;
+  width: 100%;
+  padding-bottom: 100%;
+  border-radius: 50%;
 }
 
 blockquote {
@@ -422,13 +434,19 @@ blockquote p+p {
 
 .field {
   margin-bottom: 5%;
-  width: 21rem;
+  display: block;
+  width: 100%;
   height: 2.5rem;
   font-size: 1.5rem;
+  box-sizing: border-box;
+
 }
 
 .field2 {
-  width: 21rem;
+  font-family: 'Lato', sans-serif;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
   font-size: 1.5rem;
 }
 
