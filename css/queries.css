@@ -1,0 +1,6 @@
+@media screen and (max-width: 40em) and (max-width: 64em) {
+  .about .col-6, .about .col-4:not(button) {
+    width: 100%;
+  }
+  
+}
