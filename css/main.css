@@ -55,7 +55,8 @@ img {
     box-sizing: border-box;
     min-height: 1px;
     width: 8.333%;
-    padding: 12px;;
+    padding: 12px;
+    
 }
 
 .col-1 {
@@ -149,6 +150,48 @@ header {
 .transparent {
   opacity: .2;
 }
+
+.outer {
+  border: 1px solid red;
+  background: url("../img/header-nav/empty_shape.png"), no-repeat;
+  width: 167px;
+  height: 181px;
+  max-width: 100%;
+}
+
+
+.inner {
+  width: 100%;
+  height: 100%;
+
+
+  /*margin: 25% auto 15% auto;*/
+}
+
+.inner-services {
+  background: url("../img/header-nav/nav_icons/bubble.png")  no-repeat;
+}
+
+.inner-portfolio {
+  background: url("../img/header-nav/nav_icons/portfolio.png") no-repeat;
+}
+
+/*.shape {
+  position: relative;
+
+}
+
+.inside-shape {
+  display: inline-block;
+}
+
+
+.header-nav h2 {
+  color: #fff;
+  font-size: 1.2rem;
+  padding-top: 1.2rem;
+  display: block;
+}*/
 
 /*end header*/
 
