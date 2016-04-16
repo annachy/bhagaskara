@@ -2,5 +2,18 @@
   .about .col-6, .about .col-4:not(button) {
     width: 100%;
   }
-  
+
 }
+
+/*@media (max-width: 975px) {
+  [class*='inner-'] {
+    display: none;
+  }
+  .outer span {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .outer {
+    height: 140px;
+  }
+}*/
